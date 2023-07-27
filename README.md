@@ -38,11 +38,11 @@ g++: This is the command to invoke the GCC C++ compiler.
 
 -DGL_SILENCE_DEPRECATION: This is a preprocessor directive that defines the GL_SILENCE_DEPRECATION macro. This is typically used to silence deprecation warnings in the OpenGL library.
 
--I /Users/levikanteti/cis25final/imgui -I /Users/levikanteti/cis25final/imgui/backends -I /usr/local/include: These -I options tell the compiler where to look for header files. In this case, it's instructed to look in the imgui and imgui/backends directories in your project, and in the /usr/local/include directory.
+-I /Users/<YOUR_USERNAME>/cis25final/imgui -I /Users/<YOUR_USERNAME>/cis25final/imgui/backends -I /usr/local/include: These -I options tell the compiler where to look for header files. In this case, it's instructed to look in the imgui and imgui/backends directories in your project, and in the /usr/local/include directory.
 
 -L /usr/local/lib: This -L option tells the linker where to look for library files. In this case, it's instructed to look in the /usr/local/lib directory.
 
-main.cpp /Users/levikanteti/cis25final/imgui/imgui.cpp /Users/levikanteti/cis25final/imgui/imgui_draw.cpp /Users/levikanteti/cis25final/imgui/imgui_widgets.cpp /Users/levikanteti/cis25final/imgui/imgui_tables.cpp /Users/levikanteti/cis25final/imgui/backends/imgui_impl_glfw.cpp /Users/levikanteti/cis25final/imgui/backends/imgui_impl_opengl3.cpp: These are the source files to be compiled.
+main.cpp /Users/<YOUR_USERNAME>/cis25final/imgui/imgui.cpp /Users/<YOUR_USERNAME>/cis25final/imgui/imgui_draw.cpp /Users/<YOUR_USERNAME>/cis25final/imgui/imgui_widgets.cpp /Users/<YOUR_USERNAME>/cis25final/imgui/imgui_tables.cpp /Users/<YOUR_USERNAME>/cis25final/imgui/backends/imgui_impl_glfw.cpp /Users/<YOUR_USERNAME>/cis25final/imgui/backends/imgui_impl_opengl3.cpp: These are the source files to be compiled.
 
 -lglfw: This option tells the linker to link against the GLFW library.
 
@@ -53,6 +53,8 @@ main.cpp /Users/levikanteti/cis25final/imgui/imgui.cpp /Users/levikanteti/cis25f
 -o main: This option specifies the name of the output file. In this case, the output executable will be named main.
 
 
+
+This is specifically for me because I'm really bad at organizing my files, but if you're any better than this won't (hopefully) be an issue.
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------
