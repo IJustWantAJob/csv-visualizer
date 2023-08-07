@@ -6,9 +6,13 @@ This project is a data visualization tool that reads energy usage data from a CS
 
 
 This is a C++ program that utilizes the ImGui and GLFW libraries to:
+
 A) Create a simple gui for the user to interact with
+
 B) Allow the user to select their .csv (currently hardcoded to the name energy_usage.csv)
+
 C) Read, parse, and store the data from the .csv file in a vector class container
+
 D) Take in the stored data and graph it to the gui.
 
 --------------------------------------------------------------------------------------------------------------------------------------------
