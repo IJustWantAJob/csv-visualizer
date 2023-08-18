@@ -1,5 +1,5 @@
 # csv-visualizer
-A c++ project I built as the final project for my Object Oriented Programming (OOP) C++ course.
+A c++ tool that helps visualize .csv energy data.
 <img width="1011" alt="image" src="https://github.com/IJustWantAJob/csv-visualizer/assets/100003303/082a9a88-4638-4a8b-8e01-ad6225a7b90d">
 
 This project is a data visualization tool that reads energy usage data from a CSV file and displays it in a line graph. The x-axis represents time (in hours), and the y-axis represents energy usage. The tool is designed to be interactive, allowing users to select a CSV file and view the corresponding graph. This tool could be useful in a variety of contexts, such as monitoring energy usage in a building over time, or analyzing patterns in energy consumption for energy conservation efforts.
